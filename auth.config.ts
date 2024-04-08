@@ -2,8 +2,8 @@ import type { NextAuthConfig } from 'next-auth';
  
 export const authConfig = {
   pages: {
-    signIn: '/login',
-    //signIn: '@/app/page',
+    //signIn: '/login',
+    signIn: '@/app/page',
   },
 
   callbacks: {
